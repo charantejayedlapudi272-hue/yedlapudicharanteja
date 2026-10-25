@@ -1,0 +1,44 @@
+int main() 
+{
+    int a,b,c,d;
+    printf("Enter first number:");
+    scanf("%d",&a);
+    printf("Enter second number:");
+    scanf("%d",&b);
+    c=a;
+    d=b;
+    printf("%d\n",a+=b);
+    a=c;
+    printf("%d\n",a-=b);
+    a=c;
+    printf("%d\n",a*=b);
+    a=c;
+    if(b!=0)
+    printf("%d\n",a/=b);
+    else
+    printf("can not divid by zero\n");
+    a=c;
+    if(b!=0)
+    {
+    printf("%d\n",a%=b);
+    }
+    else
+    {
+    printf("can not divid by zero\n");
+    }
+    //increment & decrement
+    a=c;
+    b=d;
+    printf("Pre increment of a and b:%d\n %d\n",++a,++b);
+    a=c;
+    b=d;
+    printf("pre decrement of a and b:%d\n %d\n",--a,--b);
+    a=c;
+    b=d;
+    printf("Post increment of a and b:%d\n %d\n",a++,b++);
+    a=c;
+    b=d;
+    printf("post decrement of a and b:%d\n %d\n",a--,b--);
+
+    return 0;
+}
